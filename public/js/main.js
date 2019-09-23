@@ -21,9 +21,10 @@ $(document).ready(function () {
   })
 
   $('.datetime').datetimepicker({
-    format: 'DD-MM-YYYY HH:mm:ss',
+    format: 'DD-MM-YYYY HH:mm',
     locale: 'en',
-    sideBySide: true
+    sideBySide: true,
+    stepping: 15
   })
 
   $('.timepicker').datetimepicker({
